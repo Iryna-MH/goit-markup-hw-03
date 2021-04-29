@@ -42,10 +42,11 @@ margin-right: 8px;
   text-align: center;
   letter-spacing: 0.03em;
   display: inline-block;
+  cursor: pointer;
 }
 
-.filter .f-button:hover,
-.filter .f-button:focus {
+.f-button:hover,
+.f-button:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
