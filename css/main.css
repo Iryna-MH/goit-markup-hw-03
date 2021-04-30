@@ -97,11 +97,6 @@ img {
 
 /*  NAV */
 
-/* .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-} */
-
 .nav .link {
   color: var(--title-color);
   font-weight: 500;
@@ -114,7 +109,7 @@ img {
 }
 
 .header .contacts .link {
-  color: var(--title-color);
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
@@ -126,6 +121,8 @@ img {
 .logo {
   display: inline-block;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header .container {
@@ -143,14 +140,11 @@ img {
 
 .contacts {
   display: inline-flex;
+  margin-left: auto;
 }
 
 .contacts-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contacts-item:first-child {
-  margin-left: 330px;
 }
 
 /* HERO */
